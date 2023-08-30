@@ -41,6 +41,7 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+
 #  - block: features
 #    content:
 #      title: Skills
@@ -149,7 +150,7 @@ sections:
       title: Recent Publications
       text: |-
         {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
+        View all publications and filter them to quickly find relevant content [here](./publication/).
         {{% /callout %}}
       filters:
         folders:
