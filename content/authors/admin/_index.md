@@ -22,7 +22,7 @@ organizations:
     url: https://www.upatras.gr/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include Mathematical Biology, Dynamial Systems and Artificial Inteligence.
 
 # Interests to show in About widget
 interests:
@@ -63,6 +63,9 @@ social:
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0001-5868-4984
+  - icon: researchgate
+    icon_pack: ai
+    link: https://www.researchgate.net/profile/Vasilis_Tsilidis
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -77,5 +80,5 @@ email: ''
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hello everyone! I'm a PhD student at the University of Patras. I enjoy learning about biological, phycological and social phenomena and investigating them with the help of mathematics. 
 {style="text-align: justify;"}
