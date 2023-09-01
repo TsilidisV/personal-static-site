@@ -31,15 +31,15 @@ The Gierer-Meinhardt model is defined as follows:
 
 $$ \frac{\partial u}{\partial t} = D_u \Delta u +  \rho\frac{u^2}{h} - \mu_u u + \rho_u $$
 
-$$ \frac{\partial v}{\partial t} =  D_v \Delta v + \rho u^2 - \mu_v v + \rho_v \, ,$$
+$$ \frac{\partial v}{\partial t} =  D_v \Delta v + \rho u^2 - \mu_v v + \rho_v, $$
 
 with 
 
 - $u$ being a short-range autocatalytic substance, or in other words, an activator,
-- $v$ being a its long-range antagonist, or in other words, an inhibitor, and,
+- $v$ being its long-range antagonist, or in other words, an inhibitor, and,
 - $\Delta = \sum\limits_{i = 1}^{n} \frac{\partial^2}{\partial x_i^2}$ being the n-dimensional Laplace operator.
 
-In the Gierer-Meinhardt equations, the autocatalytic substance activates both itself and the inhibitor substance (by $\rho u^2)$, whereas the inhibitor function inhibits the growth of the autocatalytic substance (by $\frac{1}{v})$. Both substances have a natural decay rate of the form $\mu_u u$ and $\mu_v v$ respectively. Finally, both substances have an activator-independent production rate ($\rho_u$ and $\rho_v$).
+In the Gierer-Meinhardt equations, the autocatalytic substance activates both itself and the inhibitor substance (with rate $\rho u^2)$, whereas the inhibitor function inhibits the growth of the autocatalytic substance (with rate $\frac{1}{v})$. Both substances have a natural decay rate of the form $\mu_u u$ and $\mu_v v$ respectively. Finally, both substances have an activator-independent production rate ($\rho_u$ and $\rho_v$).
 
 For the right choice of parameters, pattern formation can be obseved in the solution of the Gierer-Meinhardt model.
 
@@ -50,14 +50,14 @@ We'll solve the following IBVP:
 
 $$ \frac{\partial u}{\partial t} = D_u \Delta u +  \rho\frac{u^2}{h} - \mu_u u + \rho_u $$
 
-$$ \frac{\partial v}{\partial t} =  D_v \Delta v + \rho u^2 - \mu_v v + \rho_v \; $$
+$$ \frac{\partial v}{\partial t} =  D_v \Delta v + \rho u^2 - \mu_v v + \rho_v  $$
 
 $$ u(x,y,0) = \exp{\left(-(x-a)^2-(y-a)^2\right)}, \quad \forall (x,y) \in (0,L)^2$$
 $$ v(x,y,0) = {\rm rand}(), \quad \forall (x,y) \in (0,L)^2$$
 $$ \frac{\partial u}{\partial n}(x,0,t)  = \frac{\partial v}{\partial n}(x,0,t) = 0, \quad \forall x \in [0,L]$$
 $$ \frac{\partial u}{\partial n}(x,L,t)  = \frac{\partial v}{\partial n}(x,L,t) = 0, \quad \forall x \in [0,L]$$
 $$ \frac{\partial u}{\partial n}(0,y,t)  = \frac{\partial v}{\partial n}(0,y,t) = 0, \quad \forall y \in [0,L]$$
-$$ \frac{\partial u}{\partial n}(L,y,t)  = \frac{\partial v}{\partial n}(L,y,t) = 0, \quad \forall y \in [0,L] \;.$$
+$$ \frac{\partial u}{\partial n}(L,y,t)  = \frac{\partial v}{\partial n}(L,y,t) = 0, \quad \forall y \in [0,L] .$$
 
 
 
@@ -159,7 +159,7 @@ We then proceed to iterate the solution beginning from the second timestep and e
         U[2:end-1, 2:end-1] .= Uc .+ dt .* (Du .* DLaplacian(U) .+ ρ_u .- μ_u .* Uc .+ ρ.* (Uc.^2)./Vc )
         V[2:end-1, 2:end-1] .= Vc .+ dt .* (Dv .* DLaplacian(V) .+ ρ_v .- μ_v .* Vc .+ ρ.* Uc.^2 )
     
-        for Z in (U, V)  # Neumann initial conditions
+        for Z in (U, V)  # Neumann boundary conditions
             Z[1, :] .= Z[2, :]
             Z[end, :] .= Z[end-1, :]
             Z[:, 1] .= Z[:, 2]
@@ -208,7 +208,7 @@ Of course, if we want to speed things up, we'll want to wrap the above code in a
 ```julia
 using Random
 
-@views function GiererMeinhardt() # copy
+@views function GiererMeinhardt() 
     Du = 1;
     Dv = 100;
     

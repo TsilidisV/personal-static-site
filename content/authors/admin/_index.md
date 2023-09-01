@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Vasils Tsilidis
+title: Vasilis Tsilidis
 
 # Full name (for SEO)
 first_name: Vasilis
@@ -80,5 +80,5 @@ email: ''
 highlight_name: true
 ---
 
-Hello everyone! I'm a PhD student at the University of Patras. I enjoy learning about biological, phycological and social phenomena and investigating them with the help of mathematics. 
+Hello everyone! I'm a PhD student at the University of Patras. I enjoy learning about biological, psycological and social phenomena and investigating them with the help of mathematics. 
 {style="text-align: justify;"}
