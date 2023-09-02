@@ -80,5 +80,5 @@ email: ''
 highlight_name: true
 ---
 
-Hello everyone! I'm a PhD student at the University of Patras. I enjoy learning about biological, psycological and social phenomena and investigating them with the help of mathematics. 
+Hello everyone! I'm a PhD student at the University of Patras. I enjoy learning about biological, psychological and social phenomena and investigating them with the help of mathematics. 
 {style="text-align: justify;"}
