@@ -41,7 +41,7 @@ with
 
 In the Gierer-Meinhardt equations, the autocatalytic substance activates both itself and the inhibitor substance (with rate $\rho u^2)$, whereas the inhibitor function inhibits the growth of the autocatalytic substance (with rate $\frac{1}{v})$. Both substances have a natural decay rate of the form $\mu_u u$ and $\mu_v v$ respectively. Finally, both substances have an activator-independent production rate ($\rho_u$ and $\rho_v$).
 
-For the right choice of parameters, pattern formation can be obseved in the solution of the Gierer-Meinhardt model.
+For the right choice of parameters, pattern formation can be observed in the solution of the Gierer-Meinhardt model.
 
 More info on the Gierer-Meinhardt model can be found in [this](http://www.scholarpedia.org/article/Gierer-Meinhardt_model) scholarpedia article.  
 
@@ -128,7 +128,7 @@ Finally, we initialize a 3D matrix, in order to save $u$ every $nvis$ time steps
 UR = zeros(sizez, sizez, floor(Int, n/nvis));
 ```
 
-We define a function in order to discretize the laplacian, using the broadcasting abilities of Julia and the `@views` macro.
+We define a function in order to discretize the Laplacian, using the broadcasting abilities of Julia and the `@views` macro.
 
 
 ```julia
@@ -314,4 +314,4 @@ end
   <source src="GiererMeinhardt.mp4" type="video/mp4">
 </video>
 
-Of course, different initial conditions and parameter values, will change the behaviour of the model. So, [download](./index.ipynb) the notebook and do some experimenting!
+Of course, different initial conditions and parameter values, will change the behavior of the model. So, [download](./index.ipynb) the notebook and do some experimenting!
