@@ -1,28 +1,22 @@
 ---
-title: 'Mathematical modeling of immune response in breast cancer: the effect of tBregs and rituximab'
+title: 'Mathematical models of immune response in cancer'
 
-event: Mathematical Biology on the Mediterranean Conference, 3rd edition
-event_url: https://mbmc22.iacm.forth.gr/side_programschool.html
+event: Research Directions and Perspectives in Mathematics, 4th Edition
+event_url: https://mathlab.eap.gr/4th-twoday-conference/
 
-location: Foundation for Research and Technology Hellas (FORTH)
-address:
-  street: 100 Nikolaou Plastira str.
-  city: Heraklion
-  region: Crete
-  postcode: '94305'
-  country: Greece
+location: Hellenic Open University (online)
 
-summary: Two novel models examining the way breast cancer interact with immune cells.
-abstract: 'We present our discoveries regarding the interactions of breast cancer and the immune system. In particular, we investigate the complex way tBregs, a newly discovered subgroup of B cells, interacts with the immune system. Additionally, we model the way NK cells lyse breast cancer cells. Finally, we test rituximab as a potential breast cancer cure.'
+summary: An introduction to cancer and immune system modeling using Ordinary Differential Equations.
+abstract: 'We introduce the basic theory of Mathematical Ecology, such as the Lotka-Voltera system, the notion of functional response and the logistic equation. Furthermore, we present a rudimentary introduction to the biological meaning of a cell and cancer. Finally, we present a novel model studying the interactions between breast cancer and the immune system, utilizing the aforementioned concepts.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2022-09-06T11:00:00Z'
+date: '2022-02-27T13:15:00Z'
 # date_end: '2022-09-06T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2022-02-27T00:00:00Z'
 
 authors: [admin]
 tags: [Mathematical Biology, Dynamical Systems, Ordinary Differential Equations]
@@ -31,8 +25,8 @@ tags: [Mathematical Biology, Dynamical Systems, Ordinary Differential Equations]
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
+  caption: 
+  focal_point: 
 
 links:
 #  - icon: twitter
@@ -40,9 +34,9 @@ links:
 #    name: Follow
 #    url: https://twitter.com/georgecushen
 url_code: ''
-url_pdf: uploads/Vasilis_Tsilidis_Immune_response_in_breast_cancer_the_effect_of_tBregs_and_rituximab.pdf
+url_pdf: uploads/Vasilis_Tsilidis_Mathematical_models_of_Immune_Response_in_Cancer.pdf
 url_slides: ''
-url_video: ''
+url_video: https://youtu.be/jgwtthCxfzs
 
 # # Markdown Slides (optional).
 # #   Associate this talk with Markdown slides.
