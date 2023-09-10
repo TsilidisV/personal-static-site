@@ -14,12 +14,15 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: PhD Student
+# REMOVE THE FOLLOWING "#" WHEN YOU GET ACCEPTED
+#role: PhD Student
 
 # Organizations/Affiliations to show in About widget
-organizations:
-  - name: University of Patras
-    url: https://www.upatras.gr/en/
+# ALSO CHANGE THE ICON OF THE TAB FOLLOWING THIS https://wowchemy.com/docs/getting-started/customization/#website-icon
+# REMOVE THE FOLLOWING THREE "#" WHEN YOU GET ACCEPTED
+#organizations:
+# - name: University of Patras
+#   url: https://www.upatras.gr/en/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Mathematical Biology, Dynamical Systems and Artificial Intelligence.
