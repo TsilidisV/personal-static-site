@@ -36,7 +36,6 @@ education:
   courses:
     - course: PhD in Mathematical Biology
       institution: University of Patras
-      year: 2023
     - course: MSc in Applied Mathematics
       institution: Hellenic Open University
       year: 2021
