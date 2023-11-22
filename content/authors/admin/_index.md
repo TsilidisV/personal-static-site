@@ -14,15 +14,13 @@ status:
 superuser: true
 
 # Role/position/tagline
-# REMOVE THE FOLLOWING "#" WHEN YOU GET ACCEPTED
-#role: PhD Student
+role: PhD Student
 
 # Organizations/Affiliations to show in About widget
-# ALSO CHANGE THE ICON OF THE TAB FOLLOWING THIS https://wowchemy.com/docs/getting-started/customization/#website-icon
-# REMOVE THE FOLLOWING THREE "#" WHEN YOU GET ACCEPTED
-#organizations:
-# - name: University of Patras
-#   url: https://www.upatras.gr/en/
+# CHANGE THE ICON OF THE TAB FOLLOWING THIS https://wowchemy.com/docs/getting-started/customization/#website-icon
+organizations:
+ - name: University of Patras
+   url: https://www.upatras.gr/en/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Mathematical Biology, Dynamical Systems and Artificial Intelligence.
@@ -36,6 +34,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
+    - course: PhD in Mathematical Biology
+      institution: University of Patras
+      year: 2023
     - course: MSc in Applied Mathematics
       institution: Hellenic Open University
       year: 2021
