@@ -29,7 +29,7 @@ projects: []
 ## Solving the Gierer-Meinhardt model using Julia
 The Gierer-Meinhardt model is defined as follows: 
 
-$$ \frac{\partial u}{\partial t} = D_u \Delta u +  \rho\frac{u^2}{h} - \mu_u u + \rho_u $$
+$$ \frac{\partial u}{\partial t} = D_u \Delta u +  \rho\frac{u^2}{v} - \mu_u u + \rho_u $$
 
 $$ \frac{\partial v}{\partial t} =  D_v \Delta v + \rho u^2 - \mu_v v + \rho_v, $$
 
