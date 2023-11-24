@@ -48,7 +48,7 @@ More info on the Gierer-Meinhardt model can be found in [this](http://www.schola
 ## Solving the system
 We'll solve the following IBVP:
 
-$$ \frac{\partial u}{\partial t} = D_u \Delta u +  \rho\frac{u^2}{h} - \mu_u u + \rho_u $$
+$$ \frac{\partial u}{\partial t} = D_u \Delta u +  \rho\frac{u^2}{v} - \mu_u u + \rho_u $$
 
 $$ \frac{\partial v}{\partial t} =  D_v \Delta v + \rho u^2 - \mu_v v + \rho_v  $$
 
