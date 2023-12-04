@@ -245,6 +245,7 @@ sections:
       text: |-
         Contact me with any of the following ways:
       # Contact (add or remove contact options as necessary)
+      email: vtsilids@upatras.com
       email: vtsilids@outlook.com
 #      phone: 888 888 88 88
 #      appointment_url: 'https://calendly.com'
