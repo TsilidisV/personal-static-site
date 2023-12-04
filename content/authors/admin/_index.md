@@ -62,7 +62,7 @@ social:
     link: https://scholar.google.com/citations?hl=en&user=3qaGBDkAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/blueRoseXIV
+    link: https://github.com/TsilidisV
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0001-5868-4984
