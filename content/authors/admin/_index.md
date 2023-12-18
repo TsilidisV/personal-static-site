@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: PhD Student
+role: PhD Student!
 
 # Organizations/Affiliations to show in About widget
 # CHANGE THE ICON OF THE TAB FOLLOWING THIS https://wowchemy.com/docs/getting-started/customization/#website-icon
